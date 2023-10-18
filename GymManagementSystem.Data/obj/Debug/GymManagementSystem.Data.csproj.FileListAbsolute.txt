@@ -1,0 +1,5 @@
+D:\project\GymManagementSystem\GymManagementSystem\GymManagementSystem.Data\bin\Debug\GymManagementSystem.Data.dll
+D:\project\GymManagementSystem\GymManagementSystem\GymManagementSystem.Data\bin\Debug\GymManagementSystem.Data.pdb
+D:\project\GymManagementSystem\GymManagementSystem\GymManagementSystem.Data\obj\Debug\GymManagementSystem.Data.csproj.CoreCompileInputs.cache
+D:\project\GymManagementSystem\GymManagementSystem\GymManagementSystem.Data\obj\Debug\GymManagementSystem.Data.dll
+D:\project\GymManagementSystem\GymManagementSystem\GymManagementSystem.Data\obj\Debug\GymManagementSystem.Data.pdb

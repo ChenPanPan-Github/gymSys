@@ -1,0 +1,104 @@
+﻿
+namespace GymManagementSystem.FORMS.OPERATOR
+{
+    partial class FormDelete
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btNo = new System.Windows.Forms.Button();
+            this.btYes = new System.Windows.Forms.Button();
+            this.txtuserid = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // btNo
+            // 
+            this.btNo.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btNo.Location = new System.Drawing.Point(268, 138);
+            this.btNo.Name = "btNo";
+            this.btNo.Size = new System.Drawing.Size(90, 45);
+            this.btNo.TabIndex = 25;
+            this.btNo.Text = "取消";
+            this.btNo.UseVisualStyleBackColor = true;
+            this.btNo.Click += new System.EventHandler(this.btNo_Click);
+            // 
+            // btYes
+            // 
+            this.btYes.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btYes.Location = new System.Drawing.Point(155, 138);
+            this.btYes.Name = "btYes";
+            this.btYes.Size = new System.Drawing.Size(86, 45);
+            this.btYes.TabIndex = 24;
+            this.btYes.Text = "确认";
+            this.btYes.UseVisualStyleBackColor = true;
+            this.btYes.Click += new System.EventHandler(this.btYes_Click);
+            // 
+            // txtuserid
+            // 
+            this.txtuserid.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.txtuserid.Location = new System.Drawing.Point(243, 59);
+            this.txtuserid.Name = "txtuserid";
+            this.txtuserid.Size = new System.Drawing.Size(139, 29);
+            this.txtuserid.TabIndex = 15;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(147, 67);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(90, 21);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "用户卡号：";
+            // 
+            // FormDelete
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(494, 243);
+            this.ControlBox = false;
+            this.Controls.Add(this.btNo);
+            this.Controls.Add(this.btYes);
+            this.Controls.Add(this.txtuserid);
+            this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Name = "FormDelete";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "删除用户";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btNo;
+        private System.Windows.Forms.Button btYes;
+        private System.Windows.Forms.TextBox txtuserid;
+        private System.Windows.Forms.Label label1;
+    }
+}
